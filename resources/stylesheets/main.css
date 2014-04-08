@@ -1,0 +1,91 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13pt;
+	margin: auto;
+	width: 80%;
+	line-height: 1.5;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-align: center;
+}
+
+li {
+	display: inline-block;
+	width: 20%;
+	vertical-align: top;
+	text-align: left;
+	padding: .2em;
+	border-radius: .5em;
+	border: 1px solid white;
+}
+
+a#github {
+	border-radius: .4em;
+	padding: .4em;
+	text-decoration: none;
+	text-align: center;
+}
+
+a#github img {
+	vertical-align: middle;
+}
+
+div#links {
+	text-align: center;
+}
+
+div#overview {
+	background-color: #dedede;
+	border-radius: 1em;
+	width: 60%;
+	margin: auto;
+	margin-top: 3em;
+	padding: 1em;
+}
+
+div#overview img.screenshot {
+	float: right;
+	border: 0;
+}
+
+div#overview img.icon {
+	vertical-align: middle;
+	margin-right: .2em; 
+}
+
+div#overview a {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+div#overview a:hover {
+	text-decoration: underline;
+}
+
+h1, h2 {
+	margin: 0;
+}
+
+h1 {
+	font-size: 40pt;
+	margin-top: -.2em;
+}
+
+h2 {
+	font-size: 16pt;
+}
+
+div#features {
+	font-size: 80%;
+	margin-bottom: 4em;
+	margin-top: 6em;
+}
+
+li:target {
+	border: 1px solid black;
+}
