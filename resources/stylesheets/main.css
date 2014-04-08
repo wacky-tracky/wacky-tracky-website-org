@@ -82,8 +82,11 @@ h2 {
 
 div#features {
 	font-size: 80%;
-	margin-bottom: 4em;
-	margin-top: 6em;
+	margin: 4em;
+}
+
+div#dotCom {
+	margin: 4em;
 }
 
 li:target {
